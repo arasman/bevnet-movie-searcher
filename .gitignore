@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/api/Search.WebAPI/.vs/Search.WebAPI/v17/.suo
+/api/Search.WebAPI/obj/Debug/net6.0/Search.WebAPI.csproj.AssemblyReference.cache
