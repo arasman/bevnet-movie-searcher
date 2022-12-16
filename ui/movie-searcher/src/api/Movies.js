@@ -12,8 +12,8 @@ export const initialValue = {
 
 export const getMovies = async (search, page) => {
     let data = {result: null, error: true, message: ''}
-    try {    
-      let url = "https://localhost:7139/movies/search"
+    try {          
+      let url = `${import.meta.env.VITE_BACKEND_URL}/movies/search`;
       if (search != null && search.trim().length > 0 && page != null && page > 0)
           url = `${url}?title=${search}&page=${page}`;
       else if (search != null && search.trim().length > 0 && (page == null || (page != null && page <= 0)))
