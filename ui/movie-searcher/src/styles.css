@@ -1,0 +1,68 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(234, 234, 234);
+  }
+  
+  body {
+    padding: 60px;
+  }
+  
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 50%;
+    min-width:25rem;
+  }
+  
+  button {
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 20px;
+        color:#333333;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:30px;
+        padding-right:30px;
+        background-color:#FFD27D;
+        border-color: #d8d8d8;
+        border-width: 3px;
+        border-style: solid;
+        border-radius:35px;
+        cursor: pointer;
+        margin-right: 5px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  #inputSearch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #movieList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+  }
+  #pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #noData {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

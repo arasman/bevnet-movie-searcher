@@ -1,0 +1,12 @@
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\Search.Core.csproj.AssemblyReference.cache
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\Search.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\Search.Core.AssemblyInfoInputs.cache
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\Search.Core.AssemblyInfo.cs
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\Search.Core.csproj.CoreCompileInputs.cache
+D:\Courses\BevNet\Movies\api\Search.Core\bin\Debug\net6.0\Search.Core.deps.json
+D:\Courses\BevNet\Movies\api\Search.Core\bin\Debug\net6.0\Search.Core.dll
+D:\Courses\BevNet\Movies\api\Search.Core\bin\Debug\net6.0\Search.Core.pdb
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\Search.Core.dll
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\refint\Search.Core.dll
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\Search.Core.pdb
+D:\Courses\BevNet\Movies\api\Search.Core\obj\Debug\net6.0\ref\Search.Core.dll
