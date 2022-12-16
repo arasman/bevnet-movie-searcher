@@ -1,5 +1,6 @@
 import React from 'react'
 import { SearchingContext, HasData, CurrentPage, Pages } from '../context/SearchingContext';
+import PropTypes from 'prop-types'
 
 export const Pagination = ({onNext, onPrevious}) => {
     const currentResult = React.useContext(SearchingContext);
@@ -14,4 +15,9 @@ export const Pagination = ({onNext, onPrevious}) => {
       )}
   </div>
   )
+}
+
+Pagination.propTypes = {
+  onNext: PropTypes.func.isRequired,
+  onPrevious: PropTypes.func.isRequired
 }

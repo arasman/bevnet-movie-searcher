@@ -4,10 +4,12 @@ import { getMovies, initialValue } from "../api/Movies";
 export const useMovies = () => {
   const [searchingResult, setSearchingResult] = useState(initialValue);
   const [searchText, setSearchText] = useState("");
-
+  const [loading, setLoading] = useState(false);
   const fetchMovies = async (search, page) => {
+    setLoading(true);
     const response = await getMovies(search, page);
     setSearchingResult(response);
+    setLoading(false);
   };
 
   useEffect(() => {
@@ -37,6 +39,7 @@ export const useMovies = () => {
   };
 
   return {
+    loading,
     searchingResult,
     search,
     next,
